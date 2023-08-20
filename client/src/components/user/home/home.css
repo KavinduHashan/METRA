@@ -1,0 +1,288 @@
+.home {
+  font-family: Arial, sans-serif;
+  color: #000000;
+}
+
+/* main body */
+.main{
+  background-color: rgb(255, 255, 255);
+}
+
+.err {
+  color: rgb(254, 0, 0);
+  background-color: rgb(0, 0, 0,0.1);
+  font-weight: 500;
+  padding: 10px;
+}
+
+.hero {
+  height: 60vh;
+  /* background-color: #2980b9; */
+  background-image: url('https://image.slidesdocs.com/responsive-images/background/business-line-blue-technology-square-shape-animated-powerpoint-background_2d0537464f__960_540.jpg');
+  /* background-image: url('https://cdn.vector.com/cms/content/know-how/railway/RMI__Railway-3959-2019-04-10.jpg'); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-content h1{
+  font-size: 4.5rem;
+  color: #fff;
+  text-align: center;
+
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.c-content{
+  padding: 20px;
+  width: 900px;
+
+}
+
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 4rem 0;
+  /* background-color: #2f5ba8; */
+  background-image: url('https://cdn1.vectorstock.com/i/1000x1000/27/20/street-food-background-from-line-icon-vector-24292720.jpg');
+}
+
+.food h1{
+  text-align: center;
+  font-size: 5.5rem;
+  color: rgb(0, 0, 0);
+  padding-right: 80px;
+}
+
+.food a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgb(0, 88, 147);
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 1.5rem;
+  margin-left: 125px;
+}
+
+.food a:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(34, 0, 255);
+}
+
+.feature {
+  width: 30%;
+  text-align: center;
+  /* background-color: #fff; */
+  /* background-image: url('https://wallpaperaccess.com/full/6169319.jpg'); */
+  background-image: url('https://www.zoopindia.com/assets/images/partnersPage/Bulk-Food-Booking-On-Train.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 700px;
+  height: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.feature i {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.feature h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.feature p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #666;
+}
+
+.about {
+  background-color: #ffffff;
+  display: flex;
+  height: auto;
+  text-align: left;
+}
+
+.about-content {
+  text-align: left;
+  color: #000000;
+}
+
+.about h1 {
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.about p {
+  font-size: 1rem;
+text-align: justify;
+}
+
+.animation{
+  font-size: 30px;
+}
+
+.c{
+  background-color: black;
+}
+
+li{
+  list-style: none;
+}
+
+.table-control{
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  /* border: 1px double white; */
+}
+
+
+.box{
+   /* background-color: rgba(0, 0, 0, 0.2); */
+  /* box-shadow: 0 10px 10px rgba(0,0,0,0.9);  */
+  color: black;
+}
+.search a{
+  padding: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+  background-color: rgb(95, 95, 228);
+  color: white;
+}
+
+.search a:hover{
+  background-color: blue;
+}
+
+.search{
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(26, 26, 26);
+  /* background-color: rgba(255, 255, 255, 0.3); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#searchbtnHome, #clearbtnHome{
+  width: 200px;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+#searchbtnHome{
+  background-color: rgb(20, 20, 255);
+  margin-right: 40px;
+  color: white;
+  border-color: rgb(20, 20, 255);
+}
+
+#searchbtnHome:hover{
+  background-color: rgb(77, 77, 255);
+  color: white;
+}
+
+#clearbtnHome{
+  background-color: rgb(22, 171, 44);
+  border-color: rgb(22, 171, 44);;
+  color: white;
+}
+
+#clearbtnHome:hover{
+  background-color: rgb(0, 217, 33);
+  color: rgb(255, 255, 255);
+}
+
+#search-h2{
+  /* background-color: rgb(0, 0, 0,0.2); */
+  padding: 2px;
+  color: rgb(0, 0, 0);
+}
+
+.search-box{
+  /* background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 10px 10px rgba(0,0,0,0.5); */
+  width: 100%;
+  /* background-image: url('https://e0.pxfuel.com/wallpapers/74/253/desktop-wallpaper-blue-and-black-background-plain-dark-blue.jpg'); */
+  background-image: url('https://img.freepik.com/premium-vector/abstract-background-template-science-technology-presentation-hexagonal-shape-with-blue-soft-color_151987-231.jpg?w=2000');
+  /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwMmh1XLRTtDStEWHIn6_A4xpLk_8Sg9WIOdtjbg3h01MlzCb3fiZJeuVaBJ8832Z7YuM&usqp=CAU'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+#services{
+  text-align: left;
+}
+
+.service-features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 4rem 0;
+  /* background-color: #f39c12; */
+  /* background-color: #ebebeb; */
+  /* background-color: rgb(248, 252, 255); */
+  height: auto;
+}
+
+.service-feature1, .service-feature2, .service-feature3, .service-feature4, .service-feature5, .service-feature6{
+  width: 30%;
+  height: 200px;
+  margin: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.service-feature1:hover{
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+.service-feature2:hover{
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+.service-feature3:hover{
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+.service-feature4:hover{
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+.service-feature5:hover{
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+.service-feature6:hover{
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+
+.vision{
+  width: 700px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 1.1rem;
+}

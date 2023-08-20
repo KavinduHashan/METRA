@@ -1,0 +1,111 @@
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.25rem;
+    background-color: rgb(255, 255, 255);
+    color: #001f35;
+    /* background-color: rgb(210, 236, 253); */
+    
+  }
+
+  .nav-links li :hover {
+    color: rgb(60, 0, 255);   
+  }
+
+  .home{
+    /* background-image: url('https://wallpapercrafter.com/sizes/2560x1440/18929-train-railway-bridge-mountains-smoke-glenfinnan-viaduct-glenfinnan-united-kingdom-4k.jpg'); */
+    /* background-color: black; */
+    background-image: url('https://wallpapers.com/images/hd/blue-geometric-y4epj65yvd9whczh.jpg');
+    background-repeat: no-repeat;
+    /* background-size: 1550px 850px; */
+    background-position: center;
+
+  }
+
+  .logout{
+    text-align: right;  
+    text-align: right;
+  }
+
+
+  .logout a{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 10px;
+    
+  }
+  
+  .nav-links li {
+    margin-right: 5rem;
+    list-style: none;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #000000;
+    /* font-weight: bold; */
+  }
+  
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .line {
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    margin: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      background: rgb(0, 0, 0);
+      z-index: 1;
+      text-align: center;
+    }
+  
+    .nav-links li {
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
+  
+    .nav-links li a {
+      color: #fff;
+    }
+  
+    .hamburger {
+      display: flex;
+    }
+  }
+
+  .head{
+    text-align: left;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    /* color: rgb(0, 0, 0); */
+
+    /* color: rgb(25, 25, 25); */
+    
+  }
+

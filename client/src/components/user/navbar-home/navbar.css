@@ -1,0 +1,112 @@
+.home-home{  
+  height: 600px;
+  color: #003854;
+  /* background-color: rgb(210, 236, 253); */
+  /* background-image: url('https://png.pngtree.com/background/20210711/original/pngtree-minimalistic-blue-honeycomb-technology-background-picture-image_1085284.jpg'); */
+  /* background-image: url('https://cdn4.vectorstock.com/i/1000x1000/30/73/abstract-cartoon-blue-white-background-wallpaper-vector-16953073.jpg'); */
+  padding: 30px;
+  background-image: url('https://images.wallpaperscraft.com/image/single/train_mountains_aerial_view_148001_3840x2160.jpg');
+  background-size: cover;
+  /* background-image: url('https://static.vecteezy.com/system/resources/previews/002/597/393/original/modern-futuristic-blue-and-soft-gray-geometric-square-shape-overlapping-layer-on-white-background-abstract-technology-blue-and-white-color-banner-with-copy-space-illustration-vector.jpg'); */
+  /* filter: brightness(95%);
+  mix-blend-mode: multiply; */
+}
+
+.home-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.25rem;
+    /* background-color: rgb(18, 1, 83); */
+    background-color: transparent;
+    color: #000000;
+  }
+
+  .home-nav-links li :hover {
+    color: rgb(0, 0, 0);
+  }
+
+  
+  .home-nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .home-nav-links li {
+    margin-right: 5rem;
+    list-style: none;
+  }
+  
+  .home-nav-links li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .home-hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .home-line {
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    margin: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .home-nav-links {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      background: rgb(0, 0, 0);
+      z-index: 1;
+      text-align: center;
+    }
+  
+    .home-nav-links li {
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
+  
+    .home-nav-links li a {
+      color: #fff;
+    }
+  
+    .home-hamburger {
+      display: flex;
+    }
+  }
+
+  .home-head{
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.2);
+
+    
+    
+    /* color: rgb(0, 0, 0); */
+
+    /* color: rgb(25, 25, 25); */
+    
+  }
+
+
+  .home-h1Nav{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    
+
+  }

@@ -1,0 +1,138 @@
+.order-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* background-color: #f39c12; */
+  /* background-color: #202020; */
+  /* background-color: rgb(248, 252, 255); */
+  height: auto;
+  color: rgb(0, 0, 0);
+  width: 100%;
+}
+
+.order1{
+  width: 60%;
+  height: auto;
+  margin: 1rem;
+  padding: 2rem;
+  text-align: left;
+  background-color: rgb(248, 252, 255);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.order2{
+    width: 30%;
+    height: auto;
+    margin: 1rem;
+    padding: 2rem;
+    background-color: rgb(248, 252, 255);
+    text-align: left;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+
+  #orderbttn{
+    background-color: rgb(138, 255, 138);
+    width: 70px;
+    
+  }
+
+  #orderbttn:hover{
+    background-color: rgb(35, 255, 35);
+  }
+
+  #orderbtn{
+    background-color: rgb(127, 255, 155);
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  #orderbtn:hover{
+    background-color: rgb(35, 255, 35);
+  }
+
+  .btStripe{
+    padding: 5px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: rgb(127, 255, 155);
+  }
+  
+  .btStripe:hover{
+    background-color: rgb(35, 255, 35);
+  }
+
+  #ordercnaclebtn{
+    border-radius: 10px;
+    width: 98%;
+    margin-left: 5px;
+    padding: 5px;
+    background-color: rgb(249, 136, 136);
+  }
+
+  #ordercnaclebtn:hover{
+    background-color: rgb(255, 47, 47);
+  }
+
+  #orderbtn{
+    padding: 5px;
+    margin: 5px;
+    width: 150px;
+  }
+
+
+
+  /* background-color: rgb(122, 150, 168); */
+
+
+
+
+/* #tbl{
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    
+}
+
+#tbl th, tr{
+    width: 30%;
+}
+
+.cc{
+    background-color: transparent;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    
+}
+
+
+#t{
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#submitbtn{
+    background-color: rgb(81, 255, 124);
+}
+
+#submitbtn:hover{
+    background-color: rgb(0, 255, 64);
+}
+
+#cancelbtn{
+    background-color: rgb(255, 81, 81);
+}
+
+#cancelbtn:hover{
+    background-color: rgb(255, 0, 0);
+} */

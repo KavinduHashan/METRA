@@ -1,0 +1,20 @@
+#href{
+    color:black;
+    background-color: rgb(146, 206, 232);
+    width: 500px;
+    padding: 15px;
+    font-size: 20px;
+    margin: 20px;
+}
+
+#href:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 64, 91);    
+}
+
+#admintbl{
+    /* border: 1px solid black; */
+    margin-left: auto;
+    width: 700px;
+    margin-right: auto;
+}

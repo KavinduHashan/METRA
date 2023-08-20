@@ -1,0 +1,102 @@
+.bookingbody{
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  height: 713px;
+  width: auto;
+  background-size: contain;
+}
+
+.booking-features{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 4rem 0;
+}
+
+.booking-feature1{
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  background-color: rgb(248, 252, 255);
+  width: 40%;
+  padding: 2rem;
+}
+
+.booking-feature2{
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 60%;
+  background-color: rgb(248, 252, 255);
+  padding: 2rem;
+}
+
+.btnStripe{
+  padding: 10px;
+  width: 98%;
+  border-radius: 10px;
+  background-color: rgb(127, 255, 155);
+}
+
+.btnStripe:hover{
+  background-color: rgb(20, 183, 31);
+  color: rgb(255, 255, 255);
+}
+
+#searchbtn{
+  padding: 5px;
+  width: 100px;
+  margin: 10px;
+  background-color: rgb(138, 194, 254);
+  color: black;
+  border-radius: 10px;
+}
+
+#searchbtn:hover{
+  
+  background-color: rgb(0, 0, 223);
+  color: white;
+}
+
+
+#clearbtn{
+  padding: 5px;
+  width: 100px;
+  background-color: rgb(28, 198, 51);
+  color: black;
+  border-radius: 10px;
+}
+
+#clearbtn:hover{
+  background-color: rgb(0, 182, 24);
+  color: white;
+}
+
+#cancelbtn{
+  width: 100%;
+  border-radius: 8px; 
+  background-color: rgb(254, 99, 99);
+}
+
+#cancelbtn:hover{
+  background-color:  rgb(254, 4, 4);
+  color: rgb(255, 255, 255);
+}
+
+/* search feild */
+.form-control-searchDate{
+  width: 250px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.form-control-searchDate {
+  background-color: rgb(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+
+.input-group-text {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.input-group-text i {
+  color: #ffffff;
+}

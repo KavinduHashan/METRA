@@ -1,0 +1,67 @@
+.cantten{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+
+}
+
+
+#caddbtn, #editcbtn{
+    background-color: rgb(130, 254, 130);
+    color: black;
+    font-weight: bold;
+}
+
+#caddbtn:hover, #editcbtn:hover{
+    background-color: green;
+    color: white;    
+}
+
+#editcbtn{
+    background-color: rgb(130, 254, 130);
+    width: 100px;
+    color: black;
+    font-weight: bold;
+    border-color: rgb(130, 254, 130);
+}
+
+#editcbtn:hover{
+    background-color: green;
+    color: white;    
+}
+
+#cupbtn{
+    background-color: rgb(130, 149, 254);
+    color: black;
+    font-weight: bold;
+    
+}
+
+#cupbtn:hover{
+    background-color: rgb(0, 34, 128);
+    color: white;    
+}
+
+#delcbtn{
+    background-color: rgb(254, 130, 130);
+    width: 100px;
+    color: black;
+    font-weight: bold;
+    margin: 5px;
+    border-color: rgb(254, 130, 130);
+}
+
+#delcbtn:hover{
+    background-color: rgb(216, 0, 0);
+    color: white;    
+}
+
+#cnt{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+

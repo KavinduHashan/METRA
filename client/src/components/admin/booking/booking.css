@@ -1,0 +1,12 @@
+#delclinibtn{
+    background-color: rgb(254, 130, 130);
+    width: 100px;
+    color: black;
+    font-weight: bold;
+    border-color: rgb(254, 130, 130);;
+}
+
+#delclinibtn:hover{
+    background-color: rgb(216, 0, 0);
+    color: white;    
+}

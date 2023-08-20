@@ -1,0 +1,112 @@
+.food-home {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+  }
+
+  .food h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #000000;
+    text-align: center;
+  }
+
+  .food-features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 4rem 0;
+    /* background-color: #f39c12; */
+    /* background-color: #ebebeb; */
+    /* background-color: rgb(248, 252, 255); */
+    background-image: url('https://thumbs.dreamstime.com/b/pattern-burgers-black-white-vector-illustration-delicious-fast-food-wallpaper-cafe-home-decor-design-hand-drawn-198521195.jpg');
+    height: auto;
+  }
+
+  .food-feature1, .food-feature2, .food-feature3, .food-feature4, .food-feature5, .food-feature6{
+    width: 40%;
+    height: 300px;
+    margin: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+  }
+
+  .food-feature1 {
+    background-image: url('https://wallpapercave.com/wp/mGD11sD.jpg');
+  }
+
+  .food-feature2 {
+    background-image: url('https://rare-gallery.com/uploads/posts/1092656-food-drink-juice-bottle-cocktail-produce-liqueur-alcoholic-beverage-beer-bottle-non-alcoholic-beverage.jpg');
+  }
+
+  .food-feature3 {
+    background-image: url('https://i.pinimg.com/736x/94/45/a7/9445a760414a19294e51a10f37f46a0e.jpg');
+  }
+
+  .food-feature4 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH0lndhxQAaO_tv6S9QG_3CCq1XvHVdSENRiZLXbsm6aY_6f2F15pc-aoRMRkrRntXKTU&usqp=CAU');
+  }
+
+  .food-feature5 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH0lndhxQAaO_tv6S9QG_3CCq1XvHVdSENRiZLXbsm6aY_6f2F15pc-aoRMRkrRntXKTU&usqp=CAU');
+  }
+
+  .food-feature6 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH0lndhxQAaO_tv6S9QG_3CCq1XvHVdSENRiZLXbsm6aY_6f2F15pc-aoRMRkrRntXKTU&usqp=CAU');
+  }
+
+  .food i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+
+  } 
+
+  .food-features a{
+    padding: 30px;
+    font-size: 1rem;
+    color: #000000;
+    background-color: rgb(231, 244, 255);
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 1px solid black;
+  }
+
+  .food-features a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 59, 98);
+
+  }
+
+  .food-content{
+    background-image: url('https://cdn4.vectorstock.com/i/1000x1000/30/73/abstract-cartoon-blue-white-background-wallpaper-vector-16953073.jpg');
+
+  }
+
+  .food-about {
+    background-color: #2c3e50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+  }
+
+  .food-about-content {
+    text-align: center;
+    color: #fff;
+  }
+
+  .food-about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .food-about p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }

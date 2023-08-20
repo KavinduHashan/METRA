@@ -1,0 +1,28 @@
+#abook{
+    text-decoration: none;
+    background-color: rgb(116, 231, 116);
+    width: 100px;
+    padding: 8px;
+    color: black;
+}
+
+#abook:hover{
+    background-color: green;
+    color: white;
+}
+
+#scheduletbl{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.sbody{
+    background-image: url('https://cdn4.vectorstock.com/i/1000x1000/30/73/abstract-cartoon-blue-white-background-wallpaper-vector-16953073.jpg');
+}
+
+#not{
+    background-color: rgb(227, 0, 0);
+    color: white;
+    font-weight: bold;
+  }

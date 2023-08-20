@@ -1,0 +1,41 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+
+.body{
+    /* background-image: url('https://wallpaperaccess.com/full/2709866.jpg'); */
+    background-image: url('E:\code\MERN\METRA_FINAL\client\src\components\img\2709866.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    
+}
+
+.card{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    width: 650px;
+    /* background-color: #fff; */
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+    padding: 40px;
+    height: auto;
+    color: white;
+}
+
+.errors{
+    color: red;
+}
+
+/* .x {
+    background-color: black;
+} */
+
